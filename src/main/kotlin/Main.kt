@@ -33,7 +33,6 @@ fun main() {
         install(Authentication) {
             session<UserSession>("auth-session") {
                 validate { session ->
-                    // If the cookie has a username, let them in!
                     if (session.username.isNotEmpty()) {
                         session
                     } else {

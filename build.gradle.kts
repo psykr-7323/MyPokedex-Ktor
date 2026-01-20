@@ -25,12 +25,9 @@ dependencies {
     implementation("io.ktor:ktor-serialization-kotlinx-json:2.3.13")
     implementation(platform("io.netty:netty-bom:4.1.130.Final"))
     implementation("com.h2database:h2:2.3.232")
-    // 1. Ktor Authentication & Sessions 🔐
-    implementation("io.ktor:ktor-server-auth:2.3.13") // Check your Ktor version!
+    implementation("io.ktor:ktor-server-auth:2.3.13")
     implementation("io.ktor:ktor-server-sessions:2.3.13")
-    // 2. BCrypt (Password Hashing) 🧂
     implementation("org.mindrot:jbcrypt:0.4")
-
     implementation("ch.qos.logback:logback-classic:1.5.13")
 }
 
