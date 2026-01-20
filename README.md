@@ -49,8 +49,3 @@ This application allows users to register, log in, and manage their own private 
 3.  Sync Gradle dependencies.
 4.  Run `Main.kt`.
 5.  The server will initialize at `http://0.0.0.0:8080`.
-
-## Roadmap
-
-* [ ] Migration to PostgreSQL for production environments.
-* [ ] Docker containerization for deployment.
